@@ -40,6 +40,8 @@ export default function MainPageMidSection() {
         <div className="w-3/4 ">
           <Image
             src={userData.avatarUrl}
+            width={400}
+            height={400}
             alt="myProfilePic"
             className={Styles.profilePic}
           />
