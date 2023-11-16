@@ -43,7 +43,6 @@ export default function MainPageMidSection() {
             width={300}
             height={300}
             alt="myProfilePic"
-            className={Styles.profilePic}
           />
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
