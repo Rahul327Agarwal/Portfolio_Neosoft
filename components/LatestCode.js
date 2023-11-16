@@ -5,10 +5,10 @@ export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState(repositories);
 
   return (
-    <section className="bg-[#F1F1F1] mt-2 dark:bg-gray-900 pb-40">
+    <section className="bg-gray-100 mt-2 dark:bg-gray-900 pb-10">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-10">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left">
+        <div className="flex flex-col md:flex-row justify-between items-center md:pt-14 mx-10">
+          <h1 className="text-6xl lg:text-7xl max-w-lg font-bold my-20 md:my-0 dark:text-gray-600 text-center ">
             Latest Code
           </h1>
 

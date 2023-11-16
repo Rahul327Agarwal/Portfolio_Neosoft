@@ -4,8 +4,8 @@ import userData from "@constants/data";
 export default function Contact() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+      <div className="max-w-6xl mx-auto h-48 bg-[#02044A] antialiased">
+        <h1 className=" text-gray-50 text-5xl md:text-9xl font-bold py-10 text-center ">
           Contact
         </h1>
       </div>
@@ -73,6 +73,7 @@ export default function Contact() {
             <div className="social-icons flex flex-row space-x-8">
               <a
                 href={userData.socialLinks.facebook}
+                target="_blank"
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
                 <svg
@@ -91,6 +92,7 @@ export default function Contact() {
               </a>
               <a
                 href={userData.socialLinks.twitter}
+                target="_blank"
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
                 <svg
@@ -111,6 +113,7 @@ export default function Contact() {
               </a>
               <a
                 href={userData.socialLinks.instagram}
+                target="_blank"
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
                 <svg
@@ -172,7 +175,10 @@ export default function Contact() {
               name="message"
             ></textarea>
             <button
-              type="submit"
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+              }}
               className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
             >
               Send Message

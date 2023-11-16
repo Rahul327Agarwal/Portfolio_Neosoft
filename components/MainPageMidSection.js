@@ -39,7 +39,7 @@ export default function MainPageMidSection() {
         <div className="w-3/4 ">
           <img
             src={userData.avatarUrl}
-            alt="avatar"
+            alt="myProfilePic"
             className={Styles.profilePic}
           />
           <div className="flex flex-row justify-between mt-4">
