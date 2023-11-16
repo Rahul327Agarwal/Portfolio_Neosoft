@@ -19,18 +19,18 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Developer",
-      company: "Gemini Solutions",
-      year: "2018",
-      companyLink: "https://www.geminisolutions.com/",
-      desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
-    },
-    {
       title: "Software Engineer",
       company: "Neosoft",
       year: "2022",
       companyLink: "https://www.neosofttech.com/",
       desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
+    },
+    {
+      title: "Software Developer",
+      company: "Gemini Solutions",
+      year: "2018",
+      companyLink: "https://www.geminisolutions.com/",
+      desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
     },
     {
       title: "Graduation",
