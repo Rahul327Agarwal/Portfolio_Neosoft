@@ -3,6 +3,7 @@ import { RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
 import Styles from "@styles/Home.module.css";
+import Image from "next/image";
 
 export default function MainPageMidSection() {
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
@@ -37,7 +38,7 @@ export default function MainPageMidSection() {
       {/* Image container */}
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-3/4 ">
-          <img
+          <Image
             src={userData.avatarUrl}
             alt="myProfilePic"
             className={Styles.profilePic}
