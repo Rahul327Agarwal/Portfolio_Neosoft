@@ -41,7 +41,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
           {title}
         </h1>
         <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-          {number.length === 1 ? "0" + number : number}
+          {number?.length === 1 ? "0" + number : number}
         </h1>
       </div>
     </a>
