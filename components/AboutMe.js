@@ -3,9 +3,9 @@ import userData from "@constants/data";
 
 export default function AboutMe() {
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+    <section className="bg-gray-100 dark:bg-gray-800">
+      <div className="max-w-6xl mx-auto h-48 bg-gray-100 dark:bg-gray-800">
+        <h1 className=" text-5xl md:text-9xl font-bold py-12 text-center md:text-left">
           About Me.
         </h1>
       </div>
@@ -19,6 +19,7 @@ export default function AboutMe() {
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
+              target="_blank"
             >
               {userData.about.currentProject} ✈️
             </a>
@@ -37,6 +38,7 @@ export default function AboutMe() {
                 For any sort help / enquiry, shoot a{" "}
                 <a
                   href={`mailto:${userData.email}`}
+                  target="_blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   mail
@@ -68,19 +70,8 @@ export default function AboutMe() {
             <div className="mt-4 ml-4">
               <div className="flex flex-row justify-start items-center ">
                 <a
-                  href={userData.socialLinks.peerlist}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Peerlist
-                  </div>
-                </a>
-              </div>
-              <div className="flex flex-row justify-start items-center ">
-                <a
                   href={userData.socialLinks.facebook}
+                  target="__blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -93,6 +84,7 @@ export default function AboutMe() {
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
+                  target="__blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -105,6 +97,7 @@ export default function AboutMe() {
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.github}
+                  target="__blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -117,6 +110,7 @@ export default function AboutMe() {
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.linkedin}
+                  target="__blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -129,6 +123,7 @@ export default function AboutMe() {
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.instagram}
+                  target="__blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>

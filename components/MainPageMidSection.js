@@ -4,7 +4,7 @@ import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
 import Styles from "@styles/Home.module.css";
 
-export default function Hero() {
+export default function MainPageMidSection() {
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
